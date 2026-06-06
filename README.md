@@ -19,11 +19,19 @@ python run_pipeline.py # Parts 2-4: Generate tables, plots, and reports
 
 ## Dashboard
 
-After running `make dashboard`, open:
+An interactive Streamlit dashboard is included to explore analysis results from Parts 2–4.
 
-**http://localhost:8501**
+**Live deployment:** [Loblaw Bio Immune Cell Dashboard](https://teiko-technical-6uqljkvgytnzanh5al8nnd.streamlit.app/)
 
-The dashboard provides four tabs:
+**Run locally:**
+
+```bash
+make dashboard
+```
+
+Then open [http://localhost:8501](http://localhost:8501) in your browser.
+
+The dashboard includes four views:
 
 - **Frequency Overview** — Part 2 summary with interactive filters
 - **Response Analysis** — Part 3 responder vs non-responder boxplots and significance table
