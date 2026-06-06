@@ -1,0 +1,22 @@
+{
+  "filter_criteria": {
+    "condition": "melanoma",
+    "sample_type": "PBMC",
+    "treatment": "miraclib",
+    "time_from_treatment_start": 0
+  },
+  "total_samples": 656,
+  "samples_per_project": {
+    "prj1": 384,
+    "prj3": 272
+  },
+  "subjects_by_response": {
+    "no": 325,
+    "yes": 331
+  },
+  "subjects_by_sex": {
+    "F": 312,
+    "M": 344
+  },
+  "total_subjects": 656
+}
